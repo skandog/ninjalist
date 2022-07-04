@@ -11,7 +11,6 @@ import About from "./about";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem ipsum jfkdfj dfj djflkd jdskf jdkjf kjsfj skjf skjdjdifjei askdj
@@ -24,7 +23,6 @@ export default function Home() {
       <Link href="/ninjas">
         <a>See Ninja List</a>
       </Link>
-      <Footer />
     </div>
   );
 }
